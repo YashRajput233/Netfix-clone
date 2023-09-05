@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+.movie_img{
+    width: 240px;
+    height: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform .3s; 
+}
+.main_movie_div{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}   
+h2{
+    color: white;
+    padding-left: 60px;
+    margin:12px 0px;
+}
+.list_section{
+    margin-bottom: 60px;
+}
+.movie_img:hover{
+    transform: scale(1.1);
+}
+
+
+@media only screen and (max-width: 900px) {
+    .main_movie_div{
+        /* flex-wrap: wrap; */
+        text-align: center;
+    }
+    .button_div_footer{
+        padding: 0;
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+        padding: 0;
+    }
+}

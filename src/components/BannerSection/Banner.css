@@ -1,0 +1,61 @@
+.banner_img{
+    background: url(../../../src/assets/images/banner-img.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 97vh;
+    width: 100%;
+}
+.banner_div{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 35%;
+    left: 4%;
+    max-width: 560px;
+    gap: 16px;
+}
+.banner_div_img{    
+    max-width:100%;
+}
+.banner_para{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.banner_btn{
+    display: flex;
+    align-self: flex-start;
+    gap: 20px;
+}
+.btnban{
+    border: none;
+    padding: 12px 26px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    gap: 7px;
+    cursor: pointer;
+}
+.btnban2{
+    background-color: #757677;
+    color:#ffffff;
+}
+.gradient{
+    background: linear-gradient(77deg,rgba(0,0,0,.6),transparent 85%);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 26%;
+    top: 0;
+}
+@media only screen and (max-width: 600px) {
+    .gradient{
+        width: 100%;
+    }
+    .btnban{
+        padding: 8px 14px;
+        font-size: 18px;
+    }
+}

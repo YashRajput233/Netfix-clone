@@ -1,0 +1,63 @@
+const listofMovies1 = [
+  {
+    imageName: "src/assets/images/gunsgulab.jpg",
+  },
+  {
+    imageName: "src/assets/images/khakee.jpg",
+  },
+  {
+    imageName: "src/assets/images/adhipurush.webp",
+  },
+  {
+    imageName: "src/assets/images/sacred.jpg",
+  },
+  {
+    imageName: "src/assets/images/she.jpg",
+  },
+  {
+    imageName: "src/assets/images/jhooti.webp",
+  },
+];
+
+const listofMovies2 = [
+  {
+    imageName: "src/assets/images/moneyheist.jpg",
+  },
+  {
+    imageName: "src/assets/images/lucifer.jpg",
+  },
+  {
+    imageName: "src/assets/images/neverever.jpg",
+  },
+  {
+    imageName: "src/assets/images/stranger.jpg",
+  },
+  {
+    imageName: "src/assets/images/wednesday.jpg",
+  },
+  {
+    imageName: "src/assets/images/squid.jpg",
+  },
+];
+
+const listofMovies3 = [
+  {
+    imageName: "src/assets/images/dragon.jpg",
+  },
+  {
+    imageName: "src/assets/images/lostinspace.jpg",
+  },
+  {
+    imageName: "src/assets/images/manifest.jpg",
+  },
+  {
+    imageName: "src/assets/images/rananaidu.jpg",
+  },
+  {
+    imageName: "src/assets/images/worst.jpg",
+  },
+  {
+    imageName: "src/assets/images/cobrakai.jpg",
+  },
+];
+export { listofMovies1, listofMovies2, listofMovies3 };
