@@ -1,12 +1,18 @@
 const listofMovies1 = [
   {
+    id:1,
     imageName: "src/assets/images/gunsgulab.jpg",
+    title:"testing"
   },
   {
+    id:2,
     imageName: "src/assets/images/khakee.jpg",
+    title:"testingdffbjdf"
   },
   {
+    id:3,
     imageName: "src/assets/images/adhipurush.webp",
+    title:"testingdfjvbjkfjkfkjfdbfldk"
   },
   {
     imageName: "src/assets/images/sacred.jpg",

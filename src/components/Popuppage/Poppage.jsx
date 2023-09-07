@@ -1,8 +1,9 @@
 import "./Popup.css";
-function Poppage() {
+// import aman from "../../data/data"
+function Poppage(props) {
   return (
-    <>
-      <div>
+    <div className="center_div">
+      <div className="postion_poppage">
         <div className="pagetext_main_div">
           <div>
             <h4 className="age_linit_para">
@@ -37,8 +38,11 @@ function Poppage() {
             <h4>THis show is:oofbeatmd;lfljkj</h4>
           </div>
         </div>
+        <button onClick={props.closebtn}>
+          Close Pop
+        </button>
       </div>
-    </>
+    </div>
   );
 }
 

@@ -29,7 +29,6 @@ h2{
 
 @media only screen and (max-width: 900px) {
     .main_movie_div{
-        /* flex-wrap: wrap; */
         text-align: center;
     }
     .button_div_footer{

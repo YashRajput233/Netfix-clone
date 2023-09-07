@@ -1,23 +1,28 @@
-div{
-    color: white;
+.center_div{
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
-span{
-    color: greenyellow;
+.postion_poppage{
+    background-color: rgb(52, 67, 73);
+    width: 900px;
+    height: 50%;
 }
-.pagetext_main_div{
-    display:flex;
+.pagetext_main_div {
+    display: flex;
     justify-content: space-between;
     padding: 10px 50px;
     align-items: center;
+    color: white;
 }
 .age_linit_para{
     display: flex;
     gap: 10px;
-    align-items: center;
-    margin-bottom: 6px;
+}
+span{
+    color: greenyellow;
 }
 .age_limit{
     border: 1px solid white;
     padding: 3px;
-    font-size: 12px;
 }
