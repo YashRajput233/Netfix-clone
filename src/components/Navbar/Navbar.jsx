@@ -3,6 +3,7 @@ import { BsSearch } from "react-icons/bs";
 import { BiBell } from "react-icons/bi";
 import { AiOutlineCaretDown } from "react-icons/ai";
 import netflixicon from "../../assets/images/netflix.png"
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
@@ -10,8 +11,8 @@ function Navbar() {
           <div className="main_div">
             <div><img src={netflixicon} alt="Icon"/></div>
           <nav>
-            <a href="#">Home</a>
-            <a href="#">TV Show</a>
+            <Link>Home</Link>
+            <Link to="/View">TV Show</Link>
             <a href="#">Movie</a>
             <a href="#">New&Popular</a>
             <a href="#">My List</a>

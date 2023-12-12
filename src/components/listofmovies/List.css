@@ -2,8 +2,8 @@ body{
     background-color: black;
 }
 .movie_img{
-    width: 240px;
-    height: 150px;
+    width: 230px;
+    height: 130px;
     border-radius: 10px;
     cursor: pointer;
     transition: transform .3s; 
@@ -12,7 +12,7 @@ body{
     display: flex;
     gap: 10px;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 }   
 h2{
     color: white;
@@ -29,7 +29,6 @@ h2{
 
 @media only screen and (max-width: 900px) {
     .main_movie_div{
-        /* flex-wrap: wrap; */
         text-align: center;
     }
     .button_div_footer{

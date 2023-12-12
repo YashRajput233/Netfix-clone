@@ -1,0 +1,31 @@
+/* Poppage.css */
+
+.center_div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .postion_poppage {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .pagetext_main_div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .age_linit_para {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .age_limit {
+    font-size: 14px;
+    color: #888;
+  }
+  
