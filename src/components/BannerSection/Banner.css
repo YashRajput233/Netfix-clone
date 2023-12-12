@@ -49,6 +49,7 @@
     position: absolute;
     right: 26%;
     top: 0;
+    height: 98vh;
 }
 @media only screen and (max-width: 600px) {
     .gradient{

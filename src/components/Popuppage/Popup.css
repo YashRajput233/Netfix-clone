@@ -1,28 +1,54 @@
-.center_div{
-    justify-content: center;
-    display: flex;
-    align-items: center;
-}
-.postion_poppage{
-    background-color: rgb(52, 67, 73);
-    width: 900px;
-    height: 50%;
+/* Poppage.css */
+
+.center_div {
+  position: fixed;
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  background: black;
+  border-radius: 14px;
+  width: 590px;
+  box-shadow: rgba(0, 0, 0, 0.75) 0px 3px 10px;
 }
 .pagetext_main_div {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 50px;
-    align-items: center;
-    color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 0px 10px;
+  color: white;
+  margin-top: 17px;
 }
-.age_linit_para{
-    display: flex;
-    gap: 10px;
+.img {
+  width: 100%;
+  border-radius: 10px;
 }
-span{
-    color: greenyellow;
+.closebtn {
+  border: none;
+  position: absolute;
+  z-index: 9999;
+  top: 5px;
+  right: 8px;
+  background: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 5px 5px 3px 5px;
 }
-.age_limit{
-    border: 1px solid white;
-    padding: 3px;
+.hdbox {
+  border: 2px solid white;
+  padding: 2px 4px;
+}
+.margin {
+  margin: 10px 0px;
+}
+.pagetext {
+  flex: 0 1 49%;
+}
+.newgrdien{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 100%;
+  background: linear-gradient(0deg, black -4%, transparent 76%);
 }
